@@ -94,3 +94,17 @@ export interface Player {
   experiencia: number;
   monedas: number;
 }
+export const resources = [
+  {
+    id: 1,
+    nombre: "Titanio"
+  },
+  {
+    id: 2,
+    nombre: "Nanocircuitos"
+  },
+  {
+    id: 3,
+    nombre: "Cristales Cuánticos"
+  }
+];
