@@ -124,3 +124,6 @@ export class Inventory {
 export function atacar() {
   return Math.floor(Math.random() * 20) + 1;
 }
+export function atacar() {
+  return Math.floor(Math.random() * 20) + 1;
+}
