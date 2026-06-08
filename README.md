@@ -127,3 +127,18 @@ export function atacar() {
 export function atacar() {
   return Math.floor(Math.random() * 20) + 1;
 }
+import { View, Text } from "react-native";
+
+export default function Crafting() {
+  return (
+    <View
+      style={{
+        flex:1,
+        justifyContent:"center",
+        alignItems:"center"
+      }}
+    >
+      <Text>Sistema de Crafting</Text>
+    </View>
+  );
+}
