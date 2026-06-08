@@ -87,3 +87,10 @@ export default function Juego() {
     </View>
   );
 }
+export interface Player {
+  nombre: string;
+  nivel: number;
+  vida: number;
+  experiencia: number;
+  monedas: number;
+}
