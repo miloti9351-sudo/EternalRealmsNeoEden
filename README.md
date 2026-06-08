@@ -108,3 +108,16 @@ export const resources = [
     nombre: "Cristales Cuánticos"
   }
 ];
+export class Inventory {
+
+  items: string[] = [];
+
+  agregar(item: string) {
+    this.items.push(item);
+  }
+
+  listar() {
+    return this.items;
+  }
+
+}
