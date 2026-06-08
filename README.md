@@ -142,3 +142,18 @@ export default function Crafting() {
     </View>
   );
 }
+import { View, Text } from "react-native";
+
+export default function Mercado() {
+  return (
+    <View
+      style={{
+        flex:1,
+        justifyContent:"center",
+        alignItems:"center"
+      }}
+    >
+      <Text>Mercado Galáctico</Text>
+    </View>
+  );
+}
