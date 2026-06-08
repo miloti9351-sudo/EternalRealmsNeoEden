@@ -157,3 +157,12 @@ export default function Mercado() {
     </View>
   );
 }
+{
+  "build": {
+    "preview": {
+      "android": {
+        "buildType": "apk"
+      }
+    }
+  }
+}
